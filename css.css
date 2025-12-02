@@ -1,0 +1,68 @@
+body {
+    font-family: poppins, sans-serif;
+    background: #f5f5f5;
+}
+
+#container {
+    width: 650px;
+    background: white;
+    padding: 20px 30px;
+    margin: 30px auto;
+    border: 1px solid #ccc;
+}
+#header {
+    text-align: center;
+    position: relative;
+    padding-bottom: 10px;
+}
+#logo {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 90px;
+}
+#header hr {
+    border: none;
+    height: 4px;
+    background: #000000;
+    margin-top: 20px;
+}
+#judul {
+    text-align: center;
+    margin: 20px 0;
+    font-weight: bold;
+    font-size: 18px;
+}
+.row {
+    margin: 10px 0;
+}
+
+.label {
+    display: inline-block;
+    width: 150px;
+    font-size: 14px;
+}
+
+.input-text {
+    padding: 5px;
+    width: 250px;
+}
+
+.panjang {
+    width: 330px;
+}
+
+#btn-area {
+    margin-top: 15px;
+}
+
+.btn {
+    padding: 5px 20px;
+    border: 1px solid #999;
+    background: #e0e0e0;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #d5d5d5;
+}
